@@ -29,86 +29,86 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/trvl">How it works</Link>
+            <Link to="/trvl">Testimonials</Link>
+            <Link to="/trvl">Careers</Link>
+            <Link to="/trvl">Investors</Link>
+            <Link to="/trvl">Terms of Service</Link>
           </div>
           <div className="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/sign-up">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorship</Link>
+            <Link to="/trvl">Contact</Link>
+            <Link to="/trvl">Support</Link>
+            <Link to="/trvl">Destinations</Link>
+            <Link to="/trvl">Sponsorship</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Videos</h2>
-            <Link to="/sign-up">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <Link to="/trvl">Submit Video</Link>
+            <Link to="/trvl">Ambassadors</Link>
+            <Link to="/trvl">Agency</Link>
+            <Link to="/trvl">Influencer</Link>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/sign-up">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <Link to="/trvl">Instagram</Link>
+            <Link to="/trvl">Facebook</Link>
+            <Link to="/trvl">Youtube</Link>
+            <Link to="/trvl">Twitter</Link>
           </div>
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/trvl" className="social-logo">
               TRVL <i className="fab fa-typo3"></i>
             </Link>
           </div>
           <small className="website-rights"></small>
           <div className="social-icons">
-            <Link
+            <a
+              href="https://www.facebook.com"
               className="social-icon-link facebook"
-              to="/"
               target="_blank"
               aria-label="Facebook"
             >
               <i className="fab fa-facebook-f"></i>
-            </Link>
-            <Link
+            </a>
+            <a 
+              href="https://www.instagram.com/"
               className="social-icon-link instagram"
-              to="/"
               target="_blank"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram"></i>
-            </Link>
-            <Link
+            </a>
+            <a
+              href="https://www.youtube.com/"
               className="social-icon-link youtube"
-              to="/"
               target="_blank"
               aria-label="Youtube"
             >
               <i className="fab fa-youtube"></i>
-            </Link>
-            <Link
+            </a>
+            <a
+              href="https://twitter.com/"
               className="social-icon-link twitter"
-              to="/"
               target="_blank"
               aria-label="Twitter"
             >
               <i className="fab fa-twitter"></i>
-            </Link>
-            <Link
+            </a>
+            <a
+              href="https://www.linkedin.com/"
               className="social-icon-link linkedin"
-              to="/"
               target="_blank"
               aria-label="Linkedin"
             >
               <i className="fab fa-linkedin"></i>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
