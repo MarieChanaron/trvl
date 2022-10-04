@@ -112,6 +112,9 @@ h1 {
 }
 
 @media screen and (max-width: 1024px) {
+  h1 {
+    padding-top: 4rem;
+  }
   .cards {
     padding: 0;
   }

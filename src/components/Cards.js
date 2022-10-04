@@ -18,13 +18,13 @@ function Cards() {
               src={img9}
               text="Explore the hidden waterfall deep inside the Amazon jungle"
               label="Adventure"
-              path="/services"
+              path="/trvl/services"
             />
             <CardItem 
               src={img2}
               text="Travel through the Islands of Bali in a Private Cruise"
               label="Luxury"
-              path="/services"
+              path="/trvl/services"
             />
           </ul>
           <ul className="cards__items">
@@ -32,19 +32,19 @@ function Cards() {
               src={img3}
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
               label="Mystery"
-              path="/services"
+              path="/trvl/services"
             />
             <CardItem 
               src={img4}
               text="Experience Football on Top of the Himalayan Mountains"
               label="Adventure"
-              path="/services"
+              path="/trvl/services"
             />
             <CardItem 
               src={img8}
               text="Ride Through the Sahara Desert on a guided camel tour"
               label="Adrenaline"
-              path="/services"
+              path="/trvl/services"
             />
           </ul>
         </div>
