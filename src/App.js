@@ -20,8 +20,8 @@ function App() {
         <Routes> 
           <Route path="/trvl" exact element={<Home />} />
           <Route path="/trvl/products" exact element={<Products />} />
-          <Route path="trvl/services" exact element={<Services />} />
-          <Route path="trvl/sign-up" exact element={<SignUp />} />
+          <Route path="/trvl/services" exact element={<Services />} />
+          <Route path="/trvl/signup" exact element={<SignUp />} />
         </Routes>
         <Footer />
       </Router>
