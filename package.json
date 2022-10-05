@@ -1,5 +1,6 @@
 {
   "homepage": "http://mariechanaron.github.io/trvl",
+  "build": "react-scripts build && cp build/index.html build/404.html",
   "name": "trvl",
   "version": "0.1.0",
   "private": true,
